@@ -15,7 +15,7 @@ public class RestTemplateApplication {
 
 	public static void main(String[] args) {
 
-		User user = new User(3L, "James", "Gray", (byte)26);
+		User user = new User(3L, "Вов", "Gray", (byte)26);
 		User user2 = new User(3L, "Thomas", "Shelby", (byte)26);
 
 		SpringApplication.run(RestTemplateApplication.class, args);
