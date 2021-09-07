@@ -43,5 +43,7 @@ public class UserService {
         HttpEntity<User> requestBody = new HttpEntity<>(requestHeaders);
         String result =  restTemplate.exchange(url + "/" + id, HttpMethod.DELETE, requestBody, String.class).getBody();
         System.out.println("удален " + result);
+
+
     }
 }

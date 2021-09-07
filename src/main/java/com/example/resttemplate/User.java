@@ -1,6 +1,7 @@
 package com.example.resttemplate;
 
 public class User {
+//    change 2
 
     private Long id;
     private String name;
