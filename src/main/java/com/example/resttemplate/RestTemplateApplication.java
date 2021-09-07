@@ -29,8 +29,5 @@ public class RestTemplateApplication {
 		userService.update(user2);
 
 		userService.delete(3L);
-
-// branch chan
 	}
-
 }
